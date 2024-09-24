@@ -6,6 +6,8 @@ vim.g.mapleader = " "
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+vim.opt.scrolloff = 10
+
 -- Language
 vim.cmd("language en_US")
 
@@ -34,3 +36,10 @@ vim.keymap.set("n", "<leader>bp", "a()<Esc>i", { desc = "Input (P)arenthesis Bra
 
 vim.keymap.set("n", "<C-h>", "0", { desc = "Go to the beginning of the line" })
 vim.keymap.set("n", "<C-l>", "$", { desc = "Go to the end of the line" })
+vim.keymap.set("x", "<C-h>", "0", { desc = "Go to the beginning of the line" })
+vim.keymap.set("x", "<C-l>", "$", { desc = "Go to the end of the line" })
+
+-- Swap 'b' and 'r' functionality
+vim.keymap.set("n", "b", "R", { desc = "Enter replace mode" })
+vim.keymap.set("n", "r", "b", { desc = "Jump to the beginning of the previous word" })
+
