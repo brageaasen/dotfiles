@@ -4,6 +4,8 @@ return {
         -- Set Neovim background to dark (move outside the setup block)
         vim.o.background = 'dark'
 
+        -- vim.o.background = 'light'
+
         -- Load and configure the vscode theme
         local c = require('vscode.colors').get_colors()
         require('vscode').setup({

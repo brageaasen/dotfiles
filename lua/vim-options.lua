@@ -40,6 +40,6 @@ vim.keymap.set("x", "<C-h>", "0", { desc = "Go to the beginning of the line" })
 vim.keymap.set("x", "<C-l>", "$", { desc = "Go to the end of the line" })
 
 -- Swap 'b' and 'r' functionality
-vim.keymap.set("n", "b", "R", { desc = "Enter replace mode" })
-vim.keymap.set("n", "r", "b", { desc = "Jump to the beginning of the previous word" })
+vim.keymap.set({"n", "v"}, "b", "R", { desc = "Enter replace mode" })
+vim.keymap.set({"n", "v"}, "r", "b", { desc = "Jump to the beginning of the previous word" })
 
