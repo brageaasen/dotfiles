@@ -55,3 +55,9 @@ Welcome to my personal Neovim configuration, built with productivity, aesthetics
 git clone https://github.com/YOUR_USERNAME/nvim-config ~/.config/nvim
 nvim
 ```
+
+## Requirements
+- Neovim >= 0.9
+- lazy.nvim as your plugin manager
+- ripgrep, fd
+- Language servers installed via :Mason
