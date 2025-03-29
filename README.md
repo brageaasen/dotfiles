@@ -20,6 +20,7 @@ Welcome to my personal Neovim configuration, built with productivity, aesthetics
 - **[neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)**: File tree UI.
   - `Ctrl+n` → Open sidebar
   - `Ctrl+m` → Close sidebar
+- ** [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)**: Adds visual indentation lines.
 
 ### LSP & Autocompletion
 - **[nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)** + **[mason.nvim](https://github.com/williamboman/mason.nvim)**:
